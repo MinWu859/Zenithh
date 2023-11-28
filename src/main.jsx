@@ -14,11 +14,11 @@ const MainApp = () => {
       <Navbar />
       <Router>
         <Routes>
-          <Route path="/Zenith/about" element={<About />} />
-          <Route path="/Zenith/contact" element={<Contact />} />
-          <Route path="/Zenith/menu" element={<Menu />} />
+          <Route path="/Zenithh/about" element={<About />} />
+          <Route path="/Zenithh/contact" element={<Contact />} />
+          <Route path="/Zenithh/menu" element={<Menu />} />
           {/* other routes here */}
-          <Route path="/Zenith/" element={<App />} />
+          <Route path="/Zenithh/" element={<App />} />
         </Routes>
       </Router>
     </React.StrictMode>
