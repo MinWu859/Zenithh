@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/Zenith/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zenith</title>
+  <script type="module" crossorigin src="/Zenith/assets/index-xtsD70I4.js"></script>
+  <link rel="stylesheet" crossorigin href="/Zenith/assets/index-Y--d4bnm.css">
+</head>
+
+<body>
+    <div id="root"></div>
+    <script>
+        (function() {
+            var redirect = sessionStorage.redirect;
+            delete sessionStorage.redirect;
+            if (redirect && redirect != location.href) {
+                history.replaceState(null, null, redirect);
+            }
+        })();
+    </script>
+</body>
+
+</html>
