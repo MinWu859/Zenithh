@@ -1,0 +1,35 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url('/Zenith/bg.jpg'); */
+    background-size: cover;
+    flex-direction: column;
+    padding-inline: 8rem;
+}
+
+p {
+    max-width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5rem;
+    text-align: center;
+}
+
+.btn-wrapper {
+    align-self: center;
+    background-color: red;
+    height: 8rem;
+}
+
+.bg {
+    position: absolute;
+    top: -1rem;
+    left: -1rem;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    object-fit: cover;
+}
